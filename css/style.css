@@ -1,0 +1,11 @@
+@import url('null.css');
+
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+}
+
+
+.block-social__social-icon{
+   background-color: grey;
+}
