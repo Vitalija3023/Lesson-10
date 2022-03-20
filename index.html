@@ -15,25 +15,25 @@
       <header class="header">
          <div class="header__container">
 
-            <div class="logo">
+            <div class="header__logo logo">
                <img src="img/logo.svg" alt="Лого">
             </div>
 
-            <div class="menu menu_margin">
+            <div class="header__menu menu">
                <ul class="menu__items">
-                  <li class="menu__item"><a href="#">About Us</a> </li>
-                  <li class="menu__item"><a href="#">Courses</a> </li>
-                  <li class="menu__item"><a href="#">Events</a> </li>
-                  <li class="menu__item"><a href="#">Blog</a> </li>
-                  <li class="menu__item"><a href="#">Contacts</a> </li>
+                  <li class="menu__item"><a class="menu__link" href="#">About Us</a> </li>
+                  <li class="menu__item"><a class="menu__link" href="#">Courses</a> </li>
+                  <li class="menu__item"><a class="menu__link" href="#">Events</a> </li>
+                  <li class="menu__item"><a class="menu__link" href="#">Blog</a> </li>
+                  <li class="menu__item"><a class="menu__link" href="#">Contacts</a> </li>
 
                </ul>
             </div>
 
-            <div class="login-in">
+            <div class="header__login-in">
                <a href="#" class="button button_margin-36">Get consultation</a>
 
-               <a href="" class="login-in__link">Log in / Register</a>
+               <a href="" class="register-link">Log in / Register</a>
             </div>
 
          </div>
@@ -46,32 +46,34 @@
                
                <div class="home-page__content">
 
-                  <div class="play">
+                  <div class="home-page__play play">
                      <a href="" class="play__link">Play showreel</a>
                   </div>
 
-                  <div class="home-page__title">
-                     <h1>Enjoy studying with Createx Online Courses</h1>
-                  </div>
+                  
+                  <h1 class="home-page__title">Enjoy studying with Createx Online Courses</h1>
+                  
+                  <!-- кнопка -->
+                  <div class="home-page__double-button double-button">
 
-                  <div class="double-button">
-                     <a href="#" class="button">Explore courses</a>
-                     <a href="#" class="button button_border">About us</a>
+                     <a href="#" class="double-button__button button-border">About us</a>
+                     <a href="#" class="double-button__button button">Explore courses</a>
+                    
                   </div>
 
                </div>
 
                <div class="home-page__img">
-                  <img src="img/illustration.png" alt="ілюстрація девочка і хлопчик">
+                  <img src="img/illustration.png" alt="иллюстрация девушка и мужчина">
                </div>
 
                <div class="home-page__number number">
 
-                  <ul class="number__items">
-                     <li class="number__item"> <span>1200</span>Students graduated</li>
-                     <li class="number__item"> <span>84</span>Completed courses</li>
-                     <li class="number__item"> <span>16</span>Qualified tutors</li>
-                     <li class="number__item"> <span>5</span>Years of experience</li>
+                  <ul class="number__list ">
+                     <li class="number__item"> <span class="number__span">1200</span>Students graduated</li>
+                     <li class="number__item"> <span class="number__span">84</span>Completed courses</li>
+                     <li class="number__item"> <span class="number__span">16</span>Qualified tutors</li>
+                     <li class="number__item"> <span class="number__span">5</span>Years of experience</li>
                   </ul>
 
                  
@@ -92,12 +94,12 @@
 
                   <div class="who-we-are__content">
 
-                     <div class="block-header block-header_margin">
+                     <div class="who-we-are__block-header block-header">
                         <div class="block-header__sub-title">Who we are</div>
                         <h3 class="block-header__title">Why Createx?</h3>
                      </div>
 
-                     <ul class="list list_margin">
+                     <ul class="who-we-are__list list">
                         <li class="list__item">A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
                         <li class="list__item">Vulputate placerat amet pulvinar lorem nisl.</li>
                         <li class="list__item">Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</li>
@@ -119,23 +121,23 @@
             <div class="ready-to-learn">
                <div class="ready-to-learn__container">
 
-                  <div class="block-header block-header_margin">
+                  <div class="ready-to-learn__block-header block-header">
                      <div class="block-header__sub-title">Ready to learn?</div>
                      <h3 class="block-header__title">Featured Courses</h3>
                   </div>
 
-                  <a href="#" class="button button_border-margen">View all courses</a>
+                  <a href="#" class="button-border button-border_margin">View all courses</a>
 
-                  <div class="cards cards_margin">
+                  <div class="ready-to-learn__cards block-cards">
 
                      <!--card-1-->
 
-                     <div class="card card_margin">
+                     <div class="ready-to-learn__card card">
                         <div class="card__img">
                            <img src="img/card/image1.svg" alt="мужчина">
                         </div>
 
-                        <div class="content-card content-card_margin">
+                        <div class="card__content content-card">
                            <div class="content-card__marker-text content-card__marker-text_green">Marketing</div>
                            <div class="content-card__title">The Ultimate Google Ads Training Course</div>
                            <div class="content-card__price">$100</div>
@@ -145,12 +147,12 @@
                      </div>
 
                      <!--card-2-->
-                     <div class="card card_margin">
+                     <div class="ready-to-learn__card card">
                         <div class="card__img">
                            <img src="img/card/image2.svg" alt="мужчина">
                         </div>
 
-                        <div class="content-card content-card_margin">
+                        <div class="card__content content-card">
                            <div class="content-card__marker-text content-card__marker-text_orange">HR & Recruting</div>
                            <div class="content-card__title">HR  Management and Analytics</div>
                            <div class="content-card__price">$200</div>
@@ -161,12 +163,12 @@
 
 
                       <!--card-3-->
-                      <div class="card card_margin">
+                      <div class="ready-to-learn__card card">
                         <div class="card__img">
                            <img src="img/card/image3.svg" alt="девушка">
                         </div>
 
-                        <div class="content-card content-card_margin">
+                        <div class="card__content content-card">
                            <div class="content-card__marker-text content-card__marker-text_blue">Management</div>
                            <div class="content-card__title">Business Development Management</div>
                            <div class="content-card__price">$400</div>
@@ -177,12 +179,12 @@
 
 
                      <!--card-4-->
-                     <div class="card card_margin">
+                     <div class="ready-to-learn__card card">
                         <div class="card__img">
                            <img src="img/card/image4.svg" alt="мужчина">
                         </div>
 
-                        <div class="content-card content-card_margin">
+                        <div class="card__content content-card">
                            <div class="content-card__marker-text content-card__marker-text_blue">Management</div>
                            <div class="content-card__title">Prduct Management Fundamentals</div>
                            <div class="content-card__price">$480</div>
@@ -193,12 +195,12 @@
 
 
                      <!--card-5-->
-                     <div class="card card_margin">
+                     <div class="ready-to-learn__card card">
                         <div class="card__img">
                            <img src="img/card/image5.svg" alt="девушка">
                         </div>
 
-                        <div class="content-card content-card_margin">
+                        <div class="card__content content-card">
                            <div class="content-card__marker-text content-card__marker-text_green">Marketing</div>
                            <div class="content-card__title">PBrand Management & PR Communications</div>
                            <div class="content-card__price">$530</div>
@@ -209,12 +211,12 @@
 
 
                       <!--card-6-->
-                      <div class="card card_margin">
+                      <div class="ready-to-learn__card card">
                         <div class="card__img">
                            <img src="img/card/image6.svg" alt="мужчина">
                         </div>
 
-                        <div class="content-card content-card_margin">
+                        <div class="card__content content-card">
                            <div class="content-card__marker-text content-card__marker-text_pink">Design</div>
                            <div class="content-card__title">Graphic Design Basic</div>
                            <div class="content-card__price">$500</div>
@@ -239,17 +241,17 @@
             <div class="our-benefits">
                <div class="our-benefits__container">
 
-                  <div class="block-header block-header_margin-center">
+                  <div class="our-benefits__block-header block-header">
                      <div class="block-header__sub-title">Our benefits</div>
                      <h3 class="block-header__title">That’s how we do it</h3>
                   </div>
 
-                  <div class="tab">
+                  <div class="our-benefits__tab tab">
 
-                        <button class="tab__active tab__active_margin">Experienced Tutors</button>
-                        <button class="tab__no-active tab__no-active_margin">Feedback & Support</button>
-                        <button class="tab__no-active tab__no-active_margin">24/7 Online Library</button>
-                        <button class="tab__no-active tab__no-active_margin">Community</button>
+                        <button class="tab__item tab__item_active">Experienced Tutors</button>
+                        <button class="tab__item">Feedback & Support</button>
+                        <button class="tab__item">24/7 Online Library</button>
+                        <button class="tab__item">Community</button>
                      
                
                   </div>
@@ -277,7 +279,7 @@
             <div class="our-events">
                <div class="our-events__container">
 
-                  <div class="block-header block-header_margin-center">
+                  <div class="our-events__block-header block-header">
                      <div class="block-header__sub-title">Our Events</div>
                      <h3 class="block-header__title">Lectures & workshops</h3>
                   </div>
@@ -293,7 +295,7 @@
                         <div class="body-item__title">Formation of the organizational structure of the company in the face of uncertainty.</div>
                         <div class="body-item__subtitle">Onine master-class</div>
                      </div>
-                        <a href="#" class="button button_border">View more</a>
+                        <a href="#" class="button-border button-border_margin">View more</a>
 
                      </div>
 
@@ -308,7 +310,7 @@
                            <div class="body-item__title">Building a customer service department. Best Practices.</div>
                            <div class="body-item__subtitle">Onine lecture</div>
                         </div>
-                        <a href="#" class="button button_border">View more</a>
+                        <a href="#" class="button-border button-border_margin">View more</a>
 
                      </div>
 
@@ -324,7 +326,7 @@
                            <div class="body-item__title">How to apply methods of speculative design in practice. Worldbuilding prototyping.</div>
                            <div class="body-item__subtitle">Onine workshop</div>
                         </div>
-                        <a href="#" class="button button_border">View more</a>
+                        <a href="#" class="button-border button-border_margin">View more</a>
 
                      </div>
 
@@ -351,7 +353,7 @@
             <div class="certificate">
                <div class="certificate__container">
 
-                  <div class="block-header block-header_margin">
+                  <div class="certificate__block-header block-header">
                      <div class="block-header__sub-title">Createx Certificate</div>
                      <h3 class="block-header__title">Your expertise will be confirmed</h3>
                   </div>
@@ -361,9 +363,9 @@
                   </div>
 
                   <div class="certificate__loogo-partners logo-partners-sertificate">
-                     <img class="logo-partners-sertificate__logo-1" src="img/Del-Mar-Strategy-Logo-1.png" alt="логотип">
-                     <img class="logo-partners-sertificate__logo-2" src="img/Sentinal-Consulting-Logo-1.png" alt="логотип">
-                     <img class="logo-partners-sertificate__logo-3" src="img/National-Health-Logo-1.png" alt="логотип">
+                     <img class="logo-partners-sertificate__logo-del" src="img/Del-Mar-Strategy-Logo-1.png" alt="логотип">
+                     <img class="logo-partners-sertificate__logo-sen" src="img/Sentinal-Consulting-Logo-1.png" alt="логотип">
+                     <img class="logo-partners-sertificate__logo-nat" src="img/National-Health-Logo-1.png" alt="логотип">
                   </div>
 
                   <div class="certificate__img">
@@ -380,7 +382,7 @@
             <div class="meet-our-team">
                <div class="meet-our-team__container">
 
-                  <div class="block-header block-header_margin">
+                  <div class="meet-our-team__block-header block-header">
                      <div class="block-header__sub-title">Best tutors are all here</div>
                      <h3 class="block-header__title">Meet our team</h3>
                   </div>
@@ -439,7 +441,7 @@
             <div class="reviews">
                <div class="reviews__container">
 
-                  <div class="block-header block-header_margin-center">
+                  <div class="reviews__block-header block-header">
                      <div class="block-header__sub-title">TESTIMONIALS</div>
                      <h3 class="block-header__title">What our students say</h3>
                   </div>
@@ -476,14 +478,14 @@
          <div class="latest-posts">
             <div class="latest-posts__container">
 
-               <div class="block-header block-header_margin">
+               <div class="latest-posts__block-header block-header">
                   <div class="block-header__sub-title">Our blog</div>
                   <h3 class="block-header__title">Latest posts</h3>
                </div>
 
                <a href="#" class="button button_margin">Go to blog</a>
 
-               <!-- block-1 -->
+               <!-- block-01 -->
 
                <div class="latest-posts__cards">
                   <div class="latest-posts__card card-latest-posts">
@@ -518,7 +520,7 @@
 
                </div>
 
-               <!-- block-2 -->
+               <!-- block-02 -->
 
                <div class="latest-posts__cards">
                   <div class="latest-posts__card card-latest-posts">
@@ -553,7 +555,7 @@
 
                </div>
 
-               <!-- block-3 -->
+               <!-- block-03 -->
 
                <div class="latest-posts__cards">
                   <div class="latest-posts__card card-latest-posts">
@@ -594,19 +596,19 @@
          <div class="miss-anything">
             <div class="miss-anything__container">
 
-               <div class="block-header block-header_margin-center">
+               <div class="miss-anything__block-header block-header">
                   <div class="block-header__sub-title">Don’t miss anything</div>
                   <h3 class="block-header__title">Subscribe to the Createx School announcements</h3>
                </div>
 
                <div class="miss-anything__form form">
-                  <div class="form">
-                     <div class="form__item">
+
+                  <div class="form__item">
                         Your working email
-                     </div>
+                  </div>
 
                      <a href="#" class="button-arrow button-arrow_margin">Subscribe</a>
-                  </div>
+                  
 
                </div>
 
@@ -625,13 +627,13 @@
                   Createx Online School is a leader in online studying. We have lots of courses and programs from the main market experts. We provide relevant approaches to online learning, internships and employment in the largest companies in the country. 
                </div>
 
-               <ul class="block-social__social-icons">
-                  <li class="block-social__social-icon" ><a href="#"><img src="img/social/Facebook.png" alt=""> </a></li>
-                  <li class="block-social__social-icon" ><a href="#"><img src="img/social/Twitter.png" alt=""> </a></li>
-                  <li class="block-social__social-icon" ><a href="#"><img src="img/social/YouTube.png" alt=""> </a></li>
-                  <li class="block-social__social-icon" ><a href="#"><img src="img/social/telegram.png" alt=""> </a></li>
-                  <li class="block-social__social-icon" ><a href="#"><img src="img/social/Instagram.png" alt=""> </a></li>
-                  <li class="block-social__social-icon" ><a href="#"><img src="img/social/Linked-In.png" alt=""> </a></li>
+               <ul class="block-social__list-icon icon-list">
+                  <li class="icon-list__item" ><a class="icon-list__link" href="#"><img class="icon-list__img" src="img/social/Facebook.png" alt=""> </a></li>
+                  <li class="icon-list__item" ><a class="icon-list__link"href="#"><img class="icon-list__img" src="img/social/Twitter.png" alt=""> </a></li>
+                  <li class="icon-list__item icon-list__item_active" ><a class="icon-list__link" href="#"><img class="icon-list__img" src="img/social/YouTube.png" alt=""> </a></li>
+                  <li class="icon-list__item" ><a class="icon-list__link" href="#"><img class="icon-list__img" src="img/social/telegram.png" alt=""> </a></li>
+                  <li class="icon-list__item" ><a class="icon-list__link" href="#"><img class="icon-list__img" src="img/social/Instagram.png" alt=""> </a></li>
+                  <li class="icon-list__item" ><a class="icon-list__link" href="#"><img class="icon-list__img" src="img/social/Linked-In.png" alt=""> </a></li>
                </ul>
 
             </div>
